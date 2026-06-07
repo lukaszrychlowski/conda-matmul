@@ -1,0 +1,14 @@
+package:
+  name: matmul
+  version: 1.0.0
+
+source:
+  path: ./src
+
+requirememts:
+  build:
+    - {{ compiler('c') }}
+
+about:
+  home: https://github.com/lukaszrychlowski/conda-matmul
+  summary: Recruitment task for SoftServe
